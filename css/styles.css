@@ -139,6 +139,11 @@ body {
   color: var(--color-blue);
 }
 
+.address {
+  color: var(--background-color-white);
+  line-height: 1.71;
+}
+
 .webcolor {
   color: var(--color-blue);
 }
