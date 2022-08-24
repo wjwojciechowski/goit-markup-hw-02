@@ -16,6 +16,7 @@ body {
   --font-color-black: #212121;
   --color-blue: #2196f3;
   --logo-color-black: #000000;
+  --footer-contact-white: #ffffff99;
 }
 
 .header {
@@ -123,6 +124,18 @@ body {
 
 .contact:hover,
 .contact:focus {
+  color: var(--color-blue);
+}
+
+.contact-footer {
+  color: var(--footer-contact-white);
+  letter-spacing: 0.02;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
   color: var(--color-blue);
 }
 
